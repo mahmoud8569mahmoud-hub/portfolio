@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bordo: #6C151E;
+  --green: #0F3D3A;
+  --cream: #F5DABF;
+}
+
+/* Strict Brand Colors: Cream bg, Green text */
+body {
+  background-color: var(--cream);
+  color: var(--green);
+  overflow-x: hidden;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Selection */
+::selection {
+  background-color: var(--bordo);
+  color: var(--cream);
+}
+
+/* Fluid Heading Typography */
+.font-arabic-black {
+  font-family: var(--font-cairo), sans-serif;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+.font-english-editorial {
+  font-family: var(--font-space-grotesk), sans-serif;
+  letter-spacing: -0.03em;
+}
+
+/* Duotone & Tone grading filters */
+.hero-photo-grade {
+  filter: contrast(1.08) brightness(0.98) saturate(0);
+}
+
+.about-photo-duotone {
+  filter: grayscale(100%) contrast(1.15) brightness(0.95);
+  mix-blend-mode: multiply;
+}
+
+/* Tilted Pill Labels */
+.tilted-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 1rem;
+  border-radius: 9999px;
+  background-color: var(--bordo);
+  color: var(--cream);
+  font-family: var(--font-space-grotesk), var(--font-cairo), sans-serif;
+  font-size: 0.825rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  transform: rotate(-2.5deg);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(108, 21, 30, 0.18);
+  user-select: none;
+}
+
+.tilted-pill:hover {
+  transform: rotate(0deg) scale(1.05);
+  box-shadow: 0 6px 16px rgba(108, 21, 30, 0.28);
+}
+
+/* Custom Cursor */
+.custom-cursor {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  border-radius: 50%;
+  transition: transform 0.15s ease-out, width 0.2s ease, height 0.2s ease, background-color 0.2s ease;
+  will-change: transform;
+}
+
+/* Smooth Scrolling Setup for Lenis */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Hide scrollbar for clean editorial look while keeping scroll */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--green);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bordo);
+}
