@@ -1,0 +1,118 @@
+{
+  "nav": {
+    "work": "Work",
+    "about": "About",
+    "services": "Services",
+    "process": "Process",
+    "contact": "Contact",
+    "admin": "Admin",
+    "switchLang": "عربي"
+  },
+  "hero": {
+    "name": "Mahmoud Ayman — Timo",
+    "pill": "Creative Graphic Designer",
+    "headline": "Ideas you see before you read them.",
+    "intro": "I create fresh ideas and shape them visually, so your audience feels the message at first glance.",
+    "cta": "Explore Work",
+    "contactCta": "Start a Project"
+  },
+  "about": {
+    "tag": "About Me",
+    "title": "Concept first, then aesthetics.",
+    "p1": "I'm Mahmoud Ayman, known as Timo. A creative graphic designer with two years of experience. My work starts with the idea, not just the look. I create fresh concepts and shape them visually in a clear, simple way, so the feeling reaches the client fast, with no long explanations. I care about details, and I believe a great design is one you understand at first glance and remember afterwards.",
+    "statsLabel": "Years of Dedication",
+    "statsValue": "2+",
+    "experience": "Two years of hands-on experience"
+  },
+  "work": {
+    "tag": "Portfolio",
+    "title": "Selected Work",
+    "subtitle": "Projects crafted with clarity of thought and intent.",
+    "emptyTitle": "New Works Coming Soon",
+    "emptyDesc": "A curated collection of visual identity and social projects is currently being prepared and updated via the dashboard.",
+    "viewProject": "View Project",
+    "allCategories": "All"
+  },
+  "services": {
+    "tag": "What I Do",
+    "title": "Creative Services",
+    "tagline": "Every service starts with an idea.",
+    "items": [
+      {
+        "id": "identity",
+        "title": "Visual Identity",
+        "enTitle": "تصميم الهويات البصرية",
+        "desc": "Building a comprehensive visual identity that reflects your essence and sticks in minds."
+      },
+      {
+        "id": "logo",
+        "title": "Logo Design",
+        "enTitle": "تصميم الشعارات",
+        "desc": "Crafting memorable logos rooted in strong concepts and timeless simplicity."
+      },
+      {
+        "id": "social",
+        "title": "Social Media Design",
+        "enTitle": "تصميم السوشيال ميديا",
+        "desc": "Scroll-stopping social designs that communicate your message instantly."
+      },
+      {
+        "id": "carousel",
+        "title": "Carousel Design",
+        "enTitle": "تصميم الكاروسيل",
+        "desc": "Engaging visual narratives designed to educate, captivate, and convert."
+      },
+      {
+        "id": "ads",
+        "title": "Ads & Posters",
+        "enTitle": "تصميم الإعلانات والبوسترات",
+        "desc": "High-impact visual posters and ads engineered for quick response."
+      }
+    ]
+  },
+  "process": {
+    "tag": "Working Method",
+    "title": "From Idea to Visual Impact",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Understand",
+        "enTitle": "أفهم",
+        "desc": "Listen to the client and deeply understand the feeling needed."
+      },
+      {
+        "num": "02",
+        "title": "Create",
+        "enTitle": "أبتكر",
+        "desc": "Brainstorm fresh, unconventional ideas that stand out."
+      },
+      {
+        "num": "03",
+        "title": "Shape",
+        "enTitle": "أصيغ",
+        "desc": "Transform the idea into a visual form that lands at first glance."
+      },
+      {
+        "num": "04",
+        "title": "Deliver",
+        "enTitle": "أسلّم",
+        "desc": "Polish every detail and deliver ready-to-launch master files."
+      }
+    ]
+  },
+  "contact": {
+    "tag": "Get in Touch",
+    "heading": "Got an idea? Let's turn it into a design.",
+    "subheading": "Available for selected freelance, brand identity, and visual design projects.",
+    "whatsappBtn": "Chat on WhatsApp",
+    "socialTitle": "Follow my work & connect"
+  },
+  "footer": {
+    "rights": "© 2026 Mahmoud Ayman (Timo). All rights reserved.",
+    "crafted": "Designed & crafted with editorial precision"
+  },
+  "meta": {
+    "title": "Mahmoud Ayman (Timo) | Creative Graphic Designer",
+    "description": "I create fresh ideas and shape them visually, so your audience feels the message at first glance."
+  }
+}
